@@ -144,6 +144,9 @@ setup(
         'cms.djangoapp': [
             "keesh_studio = keesh_studio.apps:KeeshStudioConfig",
         ],
+        'lms.djangoapp': [
+            "keesh_studio = keesh_studio.apps:KeeshStudioConfig",
+        ],
     },
     include_package_data=True,
     install_requires=load_requirements('requirements/base.in'),
