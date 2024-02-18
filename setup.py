@@ -136,10 +136,9 @@ setup(
     author='Krishna Madhavan',
     author_email='krishnamadhavan07@gmail.com',
     url='https://github.com/krishnamadhavan/keesh-studio',
-    packages=find_packages(
-        include=['keesh_studio', 'keesh_studio.*'],
-        exclude=["*tests"],
-    ),
+    packages=[
+        "keesh_studio"
+    ],
     entry_points={
         'cms.djangoapp': [
             "keesh_studio = keesh_studio.apps:KeeshStudioConfig",
