@@ -16,7 +16,7 @@ class KeeshStudioConfig(AppConfig):
         'url_config': {
             'cms.djangoapp': {
                 'namespace': 'keesh_studio',
-                'regex': '^api/',
+                'regex': '^api/keesh-studio/',
                 'relative_path': 'urls',
             },
         },
